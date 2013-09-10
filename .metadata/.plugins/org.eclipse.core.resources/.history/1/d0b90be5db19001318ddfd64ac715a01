@@ -1,0 +1,27 @@
+import java.net.*;
+import java.io.*;
+
+public class URLConnectionReader {
+    public static void main(String[] args) throws Exception {
+    	System.out.println("enter no of companies");
+	    BufferedReader cr = new BufferedReader(new InputStreamReader(System.in));  	
+		int no_comp=Integer.parseInt(cr.readLine());
+		String[] s= new String[no_comp];
+		for(int i=0;i<no_comp;i++)
+		{
+			System.out.println("enter company ticker");
+			s[i]=cr.readLine();
+		}
+		URL comp = new URL("http://finance.yahoo.com/d/quotes.csv?s=s[0]&f=snd1l1yr");
+        
+		
+        //URL comp = new URL("http://finance.yahoo.com/d/quotes.csv?s=XOM+BBDb.TO+JNJ+MSFT&f=snd1l1yr");
+        URLConnection yc = comp.openConnection();
+        BufferedReader in = new BufferedReader(new InputStreamReader(
+                                    yc.getInputStream()));
+        String inputLine;
+        while ((inputLine = in.readLine()) != null) 
+            System.out.println(inputLine);
+        in.close();
+    }
+}

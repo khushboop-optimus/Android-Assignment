@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class TreeExample{
+   public static void main(String[] args) {
+      System.out.println("Tree Map Example!\n");
+      TreeMap tMap = new TreeMap();
+      tMap.put(1, "Sunday");
+      tMap.put(2, "Monday");
+      tMap.put(3, "Tuesday");
+      tMap.put(4, "Wednesday");
+      tMap.put(5, "Thursday");
+      tMap.put(6, "Friday");
+      tMap.put(7, "Saturday");
+      System.out.println("Keys of tree map: " 
+      + tMap.keySet());
+      System.out.println("Values of tree map: " 
+      + tMap.values());
+   }
+}
