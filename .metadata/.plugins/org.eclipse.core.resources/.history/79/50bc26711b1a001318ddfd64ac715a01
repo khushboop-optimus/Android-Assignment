@@ -13,10 +13,10 @@ public class yahoo {
     	System.out.println("enter value of Q ");
     
     	 BufferedReader rd1 = new BufferedReader(new InputStreamReader(System.in)); 
-    	 float Q=Float.parseFloat(rd1.readLine());
+    	 int Q=Integer.parseInt(rd1.readLine());
     	 
     	 System.out.println("enter value of S ");
-    	 float S=Float.parseFloat(rd1.readLine());
+    	 int S=Integer.parseInt(rd1.readLine());
     	 
     	 System.out.println("enter value of R ");
     	 R=Integer.parseInt(rd1.readLine());
