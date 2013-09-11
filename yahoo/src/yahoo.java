@@ -7,6 +7,7 @@ public class yahoo {
 	static long t,r;
 	//static Console c = System.console();
 	static String[] s= new String[no_comp];
+	
     public static void main(String[] args) throws Exception {
     	try{
     	r=t=System.currentTimeMillis();
@@ -27,7 +28,7 @@ public class yahoo {
 	
 		for(int i=0;i<no_comp;i++)
 		{
-			System.out.println("enter company tickers");
+			System.out.println("enter company ticker");
 			s[i]=rd1.readLine();
 		
 		}
@@ -79,11 +80,13 @@ public class yahoo {
         	System.out.println("Ticker No-" + (i+1) + " Ticker-" + s1[0] +" Current price-" + s1[1] +" Previous Close-" + s1[2] +" Market Cap-" + s1[3]+" Date-" + s1[4] +" Time-" + s1[5]);
         	if((System.currentTimeMillis()-r)>=(R*1000))
 			{
-        		RandomAccessFile file = new RandomAccessFile ("c:/java/yahoo.txt","rw");
-        		  file.setLength(0);
-        		PrintWriter fileWriter = new PrintWriter(new FileOutputStream("c:/java/yahoo.txt",true));
-        		fileWriter.print("current price-" + s1[1] + "," +"previous close-"+ s1[2] + "," +"market cap-" + s1[3]);
-        		fileWriter.close();
+        		RandomAccessFile file = new RandomAccessFile ("c:/java/yahoo.txt","rwd");
+        		//file.setLength(0);               		
+        		BufferedWriter bw= new BufferedWriter(new FileWriter("c:/java/yahoo.txt",true));
+        	
+        		bw.write("       " + "current price-" + s1[1] + "," +"previous close-"+ s1[2] + "," +"market cap-" + s1[3] + "       ");
+        		bw.close();
+        		
 			}
         }
         	
