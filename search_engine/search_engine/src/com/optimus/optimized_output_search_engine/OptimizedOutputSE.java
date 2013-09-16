@@ -21,10 +21,14 @@ public class OptimizedOutputSE {
 			int index = 0, noOfSpaces = 0, pageStrength;
 			if (DeclarationsSE.queries.size() == 0) {
 				System.out.println("you haven't entered any query!!");
+				System.out
+				.println("You have entered invalid value!! Now restart the application");
 				return;
 			}
 			if (DeclarationsSE.webPages.size() == 0) {
 				System.out.println("you haven't entered any webPage!!");
+				System.out
+				.println("You have entered invalid value!! Now restart the application");
 				return;
 			}
 
@@ -74,9 +78,12 @@ public class OptimizedOutputSE {
 
 					if (pageCount == 0 && pageValue[pageCount] != 0)
 						System.out.print("P" + pageNo[pageCount]);
-					else if (pageCount < 5 && pageValue[pageCount] != 0)
-						System.out.print("P" + pageNo[pageCount] + ",");
-
+					if (pageCount < 5 && pageValue[pageCount] != 0)
+					{
+						System.out.print("P" + pageNo[pageCount]);
+                          if(pageValue[pageCount-1] != 0)
+                        	  System.out.print(","); 
+					}
 				}
 				DeclarationsSE.optimalPages.clear();
 			}
