@@ -51,6 +51,10 @@ public class InputSE {
 		} catch (InputMismatchException e) {
 			System.out
 					.println("You have entered invalid value!! Now restart the application");
+		} catch (IndexOutOfBoundsException e2) {
+			
+			System.out
+					.println("You have entered invalid value!! Now restart the application");
 		}
 	}
 

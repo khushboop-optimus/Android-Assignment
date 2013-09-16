@@ -78,7 +78,7 @@ public class OptimizedOutputSE {
 
 					if (pageCount == 0 && pageValue[pageCount] != 0)
 						System.out.print("P" + pageNo[pageCount]);
-					if (pageCount < 5 && pageValue[pageCount] != 0)
+					else if (pageCount < 5 && pageValue[pageCount] != 0)
 					{
 						System.out.print("P" + pageNo[pageCount]);
                           if(pageValue[pageCount-1] != 0)
@@ -88,8 +88,12 @@ public class OptimizedOutputSE {
 				DeclarationsSE.optimalPages.clear();
 			}
 
-		} catch (InputMismatchException e) {
+		} catch (InputMismatchException e1) {
 			UserInterfaceSE.main(s);
+			System.out
+					.println("You have entered invalid value!! Now restart the application");
+		} catch (IndexOutOfBoundsException e2) {
+			
 			System.out
 					.println("You have entered invalid value!! Now restart the application");
 		}
