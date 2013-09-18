@@ -25,7 +25,7 @@ public final class R {
     }
     public static final class id {
         public static final int Text1=0x7f080008;
-        public static final int action_settings=0x7f08000b;
+        public static final int action_settings=0x7f08000c;
         public static final int button1=0x7f080006;
         public static final int checkBox1=0x7f08000a;
         public static final int editText1=0x7f080007;
@@ -34,6 +34,7 @@ public final class R {
         public static final int imageButton1=0x7f080009;
         public static final int list=0x7f080000;
         public static final int myfragment=0x7f080003;
+        public static final int textView1=0x7f08000b;
         public static final int toggleButton1=0x7f080004;
         public static final int toggleButton2=0x7f080005;
     }

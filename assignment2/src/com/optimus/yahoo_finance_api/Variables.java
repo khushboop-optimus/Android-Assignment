@@ -1,3 +1,7 @@
+/**
+ * 
+ * 
+ */
 package com.optimus.yahoo_finance_api;
 
 import java.io.BufferedReader;
@@ -17,9 +21,14 @@ public class Variables {
 
 	}
 
+	/**
+	 * This is to get inputs
+	 */
 	public void getvalues() {
 		BufferedReader rd1 = new BufferedReader(
 				new InputStreamReader(System.in));
+		
+		//Ask user
 		try {
 			System.out.println("Please Enter Number Of Companies.");
 			no_comp = Integer.parseInt(rd1.readLine());
