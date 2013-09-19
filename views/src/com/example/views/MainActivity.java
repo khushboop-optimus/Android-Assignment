@@ -11,22 +11,23 @@ import android.widget.Button;
 public class MainActivity extends FragmentActivity {
  
  Button btn1,btn2,btn3;
+ Fragment frag1=new StartFrag();
  @Override
  protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
   setContentView(R.layout.activity_main);
   btn1=(Button) findViewById(R.id.list);
-  //btn2=(Button) findViewById(R.id.btn2);
-  //btn3=(Button) findViewById(R.id.btn3);
+  btn2=(Button) findViewById(R.id.grid);
+  btn3=(Button) findViewById(R.id.exlist);
   FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
   
   
-  Fragment frag1=new StartFrag();
+
   ft.add(R.id.myfragment,frag1);
   ft.commit();
   btn1.setOnClickListener(btnOnClickListener);
-  //btn2.setOnClickListener(btnOnClickListener);
-  //btn3.setOnClickListener(btnOnClickListener);
+  btn2.setOnClickListener(btnOnClickListener);
+  btn3.setOnClickListener(btnOnClickListener);
   
  }
  
@@ -34,16 +35,17 @@ public class MainActivity extends FragmentActivity {
   @Override
   public void onClick(View v) {
    Fragment newfragment;
+   newfragment=frag1;
    if(v==btn1){
     newfragment = new List();
    }
-   /*
+   
    else if (v==btn2) {
-    newfragment = new Fragment_2();
+    newfragment = new Grid();
    }
-   else if (v==btn3) {
-    newfragment = new Fragment_3();
-   }*/
+  else if (v==btn3) {
+    newfragment = new Exlist();
+   }
    else {
     newfragment = new StartFrag();
    }

@@ -6,12 +6,14 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class List extends Fragment{
   
 	 ListView list1;
+	 EditText e1;
+	 ListAdapter adapter1;
 	 
 	 @Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -21,35 +23,21 @@ public class List extends Fragment{
 		 
 		 	View myFragmentView = inflater.inflate(R.layout.list, null, false);
 			 
-		 	ListAdapter adapter1=new ListAdapter(this.getActivity());
+		 	adapter1=new ListAdapter(this.getActivity());
 			list1=(ListView)myFragmentView.findViewById(R.id.listView1);
 			list1.setAdapter(adapter1);	
+			adapter1.notifyDataSetChanged();
 			
-			 return myFragmentView;
-			
-			
-		//	return super.onCreateView(inflater, container, savedInstanceState);
+			/*this.getActivity().runOnUiThread(new Runnable() {
+			    public void run() {
+			    	adapter1.notifyDataSetChanged();		        
+			    }
+			});*/
+			return myFragmentView;
+					
+	
 		}
 	 
-	/*@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		//setContentView(R.layout.list);
-		
-		ListAdapter adapter1=new ListAdapter(this.getActivity());
-		list1=(ListView)getView().findViewById(R.id.listView1);
-		list1.setAdapter(adapter1);
-	}*/
-
 	
-	/*@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		
-		getMenuInflater().inflate(R.menu.main, menu);
-		ListAdapter adapter1=new ListAdapter(this);
-		list1=(ListView)findViewById(R.id.listView1);
-		list1.setAdapter(adapter1);
-		return true;
-	}*/
 
 }

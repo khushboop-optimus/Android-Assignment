@@ -2,6 +2,7 @@ package com.example.views;
 
 import android.app.Activity;
 import android.content.Context;
+import android.database.DataSetObserver;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.BaseAdapter;
 public class ListAdapter extends BaseAdapter {
 	
 	Context context;
+	List l1;
 	
 	public ListAdapter(Context context)
 	{
@@ -33,6 +35,7 @@ public class ListAdapter extends BaseAdapter {
 		return 0;
 	}
 
+	 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		// TODO Auto-generated method stub
