@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="34" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="75" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -53,60 +53,61 @@
 <part id="11"/>
 <part id="12"/>
 <part id="13"/>
+<part id="14"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInterface.java" partName="UserInterface.java" path="E:/khushboo/workspace/UiComponents/src/com/example/uicomponents/UserInterface.java" title="UserInterface.java" tooltip="UiComponents/src/com/example/uicomponents/UserInterface.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UiComponents/src/com/example/uicomponents/UserInterface.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="609" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="listview_item_row.xml" partName="listview_item_row.xml" path="E:/khushboo/workspace/views/res/layout/listview_item_row.xml" title="listview_item_row.xml" tooltip="views/res/layout/listview_item_row.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/listview_item_row.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="list.java" partName="list.java" path="E:/khushboo/workspace/android_assign1/src/com/example/android_assign1/list.java" title="list.java" tooltip="android_assign1/src/com/example/android_assign1/list.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/src/com/example/android_assign1/list.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="422" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="startfragment.xml" partName="startfragment.xml" path="E:/khushboo/workspace/views/res/layout/startfragment.xml" title="startfragment.xml" tooltip="views/res/layout/startfragment.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/startfragment.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="E:/khushboo/workspace/android_assign1/src/com/example/android_assign1/MainActivity.java" title="MainActivity.java" tooltip="android_assign1/src/com/example/android_assign1/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/src/com/example/android_assign1/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="489" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="list.xml" partName="list.xml" path="E:/khushboo/workspace/views/res/layout/list.xml" title="list.xml" tooltip="views/res/layout/list.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/list.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="E:/khushboo/workspace/android_assign1/res/layout/activity_main.xml" title="activity_main.xml" tooltip="android_assign1/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/res/layout/activity_main.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="E:/khushboo/workspace/views/res/layout/activity_main.xml" title="activity_main.xml" tooltip="views/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/activity_main.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HeadlinesFragment.java" partName="HeadlinesFragment.java" path="E:/khushboo/workspace/fragments/FragmentBasics/src/com/example/android/fragments/HeadlinesFragment.java" title="HeadlinesFragment.java" tooltip="MainActivity/src/com/example/android/fragments/HeadlinesFragment.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainActivity/src/com/example/android/fragments/HeadlinesFragment.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="E:/khushboo/workspace/views/src/com/example/views/MainActivity.java" title="MainActivity.java" tooltip="views/src/com/example/views/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/src/com/example/views/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="814" selectionTopPixel="17"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ipsum.java" partName="Ipsum.java" path="E:/khushboo/workspace/fragments/FragmentBasics/src/com/example/android/fragments/Ipsum.java" title="Ipsum.java" tooltip="MainActivity/src/com/example/android/fragments/Ipsum.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainActivity/src/com/example/android/fragments/Ipsum.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="List.java" partName="List.java" path="E:/khushboo/workspace/views/src/com/example/views/List.java" title="List.java" tooltip="views/src/com/example/views/List.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/src/com/example/views/List.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="642" selectionTopPixel="45"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="E:/khushboo/workspace/fragments/FragmentBasics/src/com/example/android/fragments/MainActivity.java" title="MainActivity.java" tooltip="MainActivity/src/com/example/android/fragments/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainActivity/src/com/example/android/fragments/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2201" selectionTopPixel="647"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="exlist.xml" partName="exlist.xml" path="E:/khushboo/workspace/views/res/layout/exlist.xml" title="exlist.xml" tooltip="views/res/layout/exlist.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/exlist.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="list.xml" partName="list.xml" path="E:/khushboo/workspace/android_assign1/res/layout/list.xml" title="list.xml" tooltip="android_assign1/res/layout/list.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/res/layout/list.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="groups.xml" partName="groups.xml" path="E:/khushboo/workspace/views/res/layout/groups.xml" title="groups.xml" tooltip="views/res/layout/groups.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/groups.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartFragment.java" partName="StartFragment.java" path="E:/khushboo/workspace/android_assign1/src/com/example/android_assign1/StartFragment.java" title="StartFragment.java" tooltip="android_assign1/src/com/example/android_assign1/StartFragment.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/src/com/example/android_assign1/StartFragment.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="427" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExpandListAdapter.java" partName="ExpandListAdapter.java" path="E:/khushboo/workspace/views/src/com/example/views/ExpandListAdapter.java" title="ExpandListAdapter.java" tooltip="views/src/com/example/views/ExpandListAdapter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/src/com/example/views/ExpandListAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="startfragment.xml" partName="startfragment.xml" path="E:/khushboo/workspace/android_assign1/res/layout/startfragment.xml" title="startfragment.xml" tooltip="android_assign1/res/layout/startfragment.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/res/layout/startfragment.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Exlist.java" partName="Exlist.java" path="E:/khushboo/workspace/views/src/com/example/views/Exlist.java" title="Exlist.java" tooltip="views/src/com/example/views/Exlist.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/src/com/example/views/Exlist.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="737" selectionTopPixel="495"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="grid.java" partName="grid.java" path="E:/khushboo/workspace/android_assign1/src/com/example/android_assign1/grid.java" title="grid.java" tooltip="android_assign1/src/com/example/android_assign1/grid.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/src/com/example/android_assign1/grid.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="409" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExpandListChild.java" partName="ExpandListChild.java" path="E:/khushboo/workspace/views/src/com/example/views/ExpandListChild.java" title="ExpandListChild.java" tooltip="views/src/com/example/views/ExpandListChild.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/src/com/example/views/ExpandListChild.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="431" selectionTopPixel="0"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="exlist.xml" partName="exlist.xml" path="E:/khushboo/workspace/android_assign1/res/layout/exlist.xml" title="exlist.xml" tooltip="android_assign1/res/layout/exlist.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/res/layout/exlist.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExpandListGroup.java" partName="ExpandListGroup.java" path="E:/khushboo/workspace/views/src/com/example/views/ExpandListGroup.java" title="ExpandListGroup.java" tooltip="views/src/com/example/views/ExpandListGroup.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/src/com/example/views/ExpandListGroup.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="529" selectionTopPixel="182"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="exlist.java" partName="exlist.java" path="E:/khushboo/workspace/android_assign1/src/com/example/android_assign1/exlist.java" title="exlist.java" tooltip="android_assign1/src/com/example/android_assign1/exlist.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/src/com/example/android_assign1/exlist.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="413" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="expand_list_item.xml" partName="expand_list_item.xml" path="E:/khushboo/workspace/views/res/layout/expand_list_item.xml" title="expand_list_item.xml" tooltip="views/res/layout/expand_list_item.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/expand_list_item.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="grid.xml" partName="grid.xml" path="E:/khushboo/workspace/android_assign1/res/layout/grid.xml" title="grid.xml" tooltip="android_assign1/res/layout/grid.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/android_assign1/res/layout/grid.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="expandlist_group_item.xml" partName="expandlist_group_item.xml" path="E:/khushboo/workspace/views/res/layout/expandlist_group_item.xml" title="expandlist_group_item.xml" tooltip="views/res/layout/expandlist_group_item.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/expandlist_group_item.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="expandlist_child_item.xml" partName="expandlist_child_item.xml" path="E:/khushboo/workspace/views/res/layout/expandlist_child_item.xml" title="expandlist_child_item.xml" tooltip="views/res/layout/expandlist_child_item.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/views/res/layout/expandlist_child_item.xml"/>
 </editor>
 </editors>
 <views>
@@ -130,6 +131,9 @@
 </viewState>
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" partName="File Explorer">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -182,7 +186,9 @@
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
-<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sorter groupBy="CATEGORY_QUERY">
+<sorter>
+<sort0 sortDirection="1" sortKey="PRIORITY"/>
 <sort1 sortDirection="1" sortKey="RANK"/>
 <sort2 sortDirection="1" sortKey="DATE_CREATED"/>
 <sort3 sortDirection="1" sortKey="NONE"/>
@@ -383,8 +389,10 @@
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -409,12 +417,13 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.21328413" ratioLeft="289" ratioRight="1066" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7483871" ratioLeft="464" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.android.ide.eclipse.ddms.views.FileExplorerView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<page content="com.android.ide.eclipse.ddms.views.FileExplorerView" label="File Explorer"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -424,13 +433,16 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@b6fb81" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.49892932" ratioLeft="233" ratioRight="234" relationship="4" relative="org.eclipse.ui.internal.ViewStack@b6fb81">
@@ -450,133 +462,121 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/android_assign1/src/com/example/android_assign1/list.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/android_assign1/src/com/example/android_assign1/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/android_assign1/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/android_assign1/res/layout/list.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/android_assign1/src/com/example/android_assign1/StartFragment.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/android_assign1/src/com/example/android_assign1/grid.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/android_assign1/res/layout/exlist.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/android_assign1/src/com/example/android_assign1/exlist.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/android_assign1/res/layout/grid.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/views/res/layout/child.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/views/src/com/example/views/ExlistAdaptor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/views/src/com/example/views/Exlist.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/views/src/com/example/views/ExpandListChild.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/views/src/com/example/views/ExpandListGroup.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/views/src/com/example/views/ExpandListAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/views/res/layout/expand_list_item.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/views/res/layout/expand_list_group_item.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/views/res/layout/exlist.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/views/res/layout/expandlist_group_item.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/views/res/layout/expandlist_child_item.xml"/>
 </editors>
-<item historyLabel="list.xml" index="3"/>
-<item historyLabel="StartFragment.java" index="4">
-<position info="not_deleted" x="191" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1476" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1476" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
+<item historyLabel="Exlist.java" index="2">
 <position/>
 </item>
-<item historyLabel="activity_main.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
+<item historyLabel="ExpandListChild.java" index="3">
+<position info="not_deleted" x="431" y="0"/>
+</item>
+<item historyLabel="Exlist.java" index="2">
 <position/>
 </item>
-<item historyLabel="grid.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ExpandListChild.java" index="3">
+<position info="not_deleted" x="431" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
+<item historyLabel="Exlist.java" index="2">
 <position/>
 </item>
-<item historyLabel="exlist.xml" index="6"/>
-<item historyLabel="exlist.java" index="7">
-<position info="not_deleted" x="231" y="0"/>
+<item historyLabel="ExpandListChild.java" index="3">
+<position info="not_deleted" x="431" y="0"/>
 </item>
-<item historyLabel="list.java" index="0">
-<position info="not_deleted" x="427" y="0"/>
+<item historyLabel="ExpandListGroup.java" index="4">
+<position info="not_deleted" x="529" y="0"/>
 </item>
-<item historyLabel="exlist.xml" index="6"/>
-<item historyLabel="exlist.java" index="7">
-<position info="not_deleted" x="231" y="0"/>
+<item historyLabel="ExlistAdaptor.java" index="1">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="grid.java" index="5">
-<position info="not_deleted" x="229" y="0"/>
+<item historyLabel="ExpandListChild.java" index="3">
+<position info="not_deleted" x="431" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1385" y="0"/>
-</item>
-<item historyLabel="list.java" index="0">
-<position info="not_deleted" x="427" y="0"/>
-</item>
-<item historyLabel="exlist.java" index="7">
-<position info="not_deleted" x="231" y="0"/>
-</item>
-<item historyLabel="exlist.xml" index="6"/>
-<item historyLabel="grid.java" index="5">
-<position info="not_deleted" x="229" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1423" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
+<item historyLabel="ExlistAdaptor.java" index="1">
 <position/>
 </item>
-<item historyLabel="grid.xml" index="8">
-<position info="not_deleted" x="718" y="0"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1385" y="0"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="1953" y="0"/>
 </item>
-<item historyLabel="grid.xml" index="8"/>
-<item historyLabel="exlist.xml" index="6"/>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1385" y="0"/>
+<item historyLabel="expand_list_item.xml" index="6"/>
+<item historyLabel="expand_list_group_item.xml" index="7"/>
+<item historyLabel="expand_list_item.xml" index="6"/>
+<item historyLabel="ExpandListChild.java" index="3">
+<position info="not_deleted" x="431" y="0"/>
 </item>
-<item historyLabel="grid.java" index="5">
-<position info="not_deleted" x="409" y="0"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="1953" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="902" y="0"/>
+<item historyLabel="expand_list_item.xml" index="6"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="1911" y="21"/>
 </item>
-<item historyLabel="StartFragment.java" index="4">
-<position info="not_deleted" x="427" y="0"/>
+<item historyLabel="expand_list_item.xml" index="6"/>
+<item historyLabel="child.xml" index="0"/>
+<item historyLabel="exlist.xml" index="8"/>
+<item historyLabel="child.xml" index="0"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="1911" y="21"/>
 </item>
-<item historyLabel="grid.java" index="5">
-<position info="not_deleted" x="409" y="0"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="1953" y="0"/>
 </item>
-<item historyLabel="list.java" index="0">
-<position info="not_deleted" x="422" y="0"/>
+<item historyLabel="expand_list_item.xml" index="6"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="expandlist_child_item.xml" index="10"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="1953" y="0"/>
 </item>
-<item historyLabel="StartFragment.java" index="4">
-<position info="not_deleted" x="427" y="0"/>
+<item historyLabel="expandlist_child_item.xml" index="10"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="2157" y="0"/>
 </item>
-<item historyLabel="grid.java" index="5">
-<position info="not_deleted" x="409" y="0"/>
+<item historyLabel="expandlist_child_item.xml" index="10"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="2181" y="0"/>
 </item>
-<item historyLabel="exlist.xml" index="6"/>
-<item historyLabel="exlist.java" index="7">
-<position info="not_deleted" x="413" y="0"/>
+<item historyLabel="expandlist_child_item.xml" index="10"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="2181" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="902" y="0"/>
+<item historyLabel="exlist.xml" index="8"/>
+<item historyLabel="Exlist.java" index="2">
+<position info="not_deleted" x="2584" y="0"/>
 </item>
-<item historyLabel="grid.xml" index="8"/>
-<item historyLabel="exlist.java" index="7">
-<position info="not_deleted" x="413" y="0"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="8" y="11"/>
 </item>
-<item historyLabel="exlist.xml" index="6"/>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1338" y="0"/>
+<item historyLabel="Exlist.java" index="2">
+<position info="not_deleted" x="26" y="0"/>
 </item>
-<item historyLabel="StartFragment.java" index="4">
-<position info="not_deleted" x="427" y="0"/>
+<item historyLabel="ExpandListAdapter.java" index="5">
+<position info="not_deleted" x="0" y="26"/>
 </item>
-<item historyLabel="grid.java" index="5">
-<position info="not_deleted" x="409" y="0"/>
+<item historyLabel="Exlist.java" index="2">
+<position info="not_deleted" x="64" y="0"/>
 </item>
-<item active="true" historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="1338" y="0"/>
+<item historyLabel="expandlist_group_item.xml" index="9"/>
+<item historyLabel="expandlist_child_item.xml" index="10"/>
+<item active="true" historyLabel="Exlist.java" index="2">
+<position info="not_deleted" x="64" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -584,6 +584,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -592,54 +599,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="grid.xml" tooltip="android_assign1/res/layout/grid.xml">
-<persistable path="/android_assign1/res/layout/grid.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="expandlist_child_item.xml" tooltip="views/res/layout/expandlist_child_item.xml">
+<persistable path="/views/res/layout/expandlist_child_item.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="exlist.java" tooltip="android_assign1/src/com/example/android_assign1/exlist.java">
-<persistable path="/android_assign1/src/com/example/android_assign1/exlist.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="expandlist_group_item.xml" tooltip="views/res/layout/expandlist_group_item.xml">
+<persistable path="/views/res/layout/expandlist_group_item.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="exlist.xml" tooltip="android_assign1/res/layout/exlist.xml">
-<persistable path="/android_assign1/res/layout/exlist.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="expand_list_group_item.xml" tooltip="views/res/layout/expand_list_group_item.xml">
+<persistable path="/views/res/layout/expand_list_group_item.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="grid.java" tooltip="android_assign1/src/com/example/android_assign1/grid.java">
-<persistable path="/android_assign1/src/com/example/android_assign1/grid.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="expand_list_item.xml" tooltip="views/res/layout/expand_list_item.xml">
+<persistable path="/views/res/layout/expand_list_item.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="startfragment.xml" tooltip="android_assign1/res/layout/startfragment.xml">
-<persistable path="/android_assign1/res/layout/startfragment.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExpandListGroup.java" tooltip="views/src/com/example/views/ExpandListGroup.java">
+<persistable path="/views/src/com/example/views/ExpandListGroup.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartFragment.java" tooltip="android_assign1/src/com/example/android_assign1/StartFragment.java">
-<persistable path="/android_assign1/src/com/example/android_assign1/StartFragment.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExpandListChild.java" tooltip="views/src/com/example/views/ExpandListChild.java">
+<persistable path="/views/src/com/example/views/ExpandListChild.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="list.xml" tooltip="android_assign1/res/layout/list.xml">
-<persistable path="/android_assign1/res/layout/list.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInterfaceSE.java" tooltip="search_engine/src/com/optimus/user_interface_search_engine/UserInterfaceSE.java">
+<persistable path="/search_engine/src/com/optimus/user_interface_search_engine/UserInterfaceSE.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="MainActivity/src/com/example/android/fragments/MainActivity.java">
-<persistable path="/MainActivity/src/com/example/android/fragments/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OptimizedOutputSE.java" tooltip="search_engine/src/com/optimus/optimized_output_search_engine/OptimizedOutputSE.java">
+<persistable path="/search_engine/src/com/optimus/optimized_output_search_engine/OptimizedOutputSE.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ipsum.java" tooltip="MainActivity/src/com/example/android/fragments/Ipsum.java">
-<persistable path="/MainActivity/src/com/example/android/fragments/Ipsum.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InputSE.java" tooltip="search_engine/src/com/optimus/input_search_engine/InputSE.java">
+<persistable path="/search_engine/src/com/optimus/input_search_engine/InputSE.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HeadlinesFragment.java" tooltip="MainActivity/src/com/example/android/fragments/HeadlinesFragment.java">
-<persistable path="/MainActivity/src/com/example/android/fragments/HeadlinesFragment.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Exlist.java" tooltip="views/src/com/example/views/Exlist.java">
+<persistable path="/views/src/com/example/views/Exlist.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyGestureDetector.java" tooltip="android_assign1/src/com/example/android_assign1/MyGestureDetector.java">
-<persistable path="/android_assign1/src/com/example/android_assign1/MyGestureDetector.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExlistAdaptor.java" tooltip="views/src/com/example/views/ExlistAdaptor.java">
+<persistable path="/views/src/com/example/views/ExlistAdaptor.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="assign2_java/src/com/example/assign2_java/MainActivity.java">
-<persistable path="/assign2_java/src/com/example/assign2_java/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="child.xml" tooltip="views/res/layout/child.xml">
+<persistable path="/views/res/layout/child.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_main_dummy.xml" tooltip="assign2_java/res/layout/fragment_main_dummy.xml">
-<persistable path="/assign2_java/res/layout/fragment_main_dummy.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="groups.xml" tooltip="views/res/layout/groups.xml">
+<persistable path="/views/res/layout/groups.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="android_assign1/res/layout/activity_main.xml">
-<persistable path="/android_assign1/res/layout/activity_main.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="exlist.xml" tooltip="views/res/layout/exlist.xml">
+<persistable path="/views/res/layout/exlist.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="android_assign1/src/com/example/android_assign1/MainActivity.java">
-<persistable path="/android_assign1/src/com/example/android_assign1/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="List.java" tooltip="views/src/com/example/views/List.java">
+<persistable path="/views/src/com/example/views/List.java"/>
 </file>
 </mruList>
 </workbench>

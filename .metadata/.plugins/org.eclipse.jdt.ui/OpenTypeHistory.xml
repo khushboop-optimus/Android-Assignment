@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=android_assign1/C:\/Users\/pro4\/android-sdks\/platforms\/android-18\/android.jar&lt;android.widget(BaseAdapter.class[BaseAdapter" modifiers="1057" timestamp="1378442633872"/>
+<typeInfo handle="=views/E:\/khushboo\/workspace\/views\/libs\/android-support-v4.jar&lt;android.support.v4.widget(EdgeEffectCompat$BaseEdgeEffectImpl.class[BaseEdgeEffectImpl" modifiers="8" timestamp="1379501308243"/>
+<typeInfo handle="=views/C:\/Users\/pro4\/android-sdks\/platforms\/android-18\/android.jar&lt;android.widget(BaseExpandableListAdapter.class[BaseExpandableListAdapter" modifiers="1057" timestamp="1378442633872"/>
+</typeInfoHistroy>

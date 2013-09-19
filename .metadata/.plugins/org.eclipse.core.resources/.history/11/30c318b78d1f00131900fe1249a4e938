@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+       <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="140dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+ <Button
+     android:id="@+id/list"
+     android:layout_width="100dp"
+     android:layout_height="40dp"
+    
+     android:text="ListView" />
+
+ <Button
+     android:id="@+id/grid"
+     android:layout_width="100dp"
+     android:layout_height="40dp"
+    
+     android:text="GridView" />
+
+ <Button
+     android:id="@+id/exlist"
+     android:layout_width="100dp"
+     android:layout_height="40dp"
+    
+     android:text="ExtendedList" />
+
+      </LinearLayout>
+
+ 
+<LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="140dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:id="@+id/myfragment" >
+ 
+     
+     
+  </LinearLayout>
+  </LinearLayout>

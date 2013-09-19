@@ -1,0 +1,25 @@
+package com.example.android_assign1;
+
+import android.app.Fragment;
+import android.os.Bundle;
+import android.view.GestureDetector;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.ViewGroup;
+
+
+public class list extends Fragment  {
+
+    public static final int SWIPE_MIN_DISTANCE = 120;
+    public static final int SWIPE_MAX_OFF_PATH = 250;
+    public static final int SWIPE_THRESHOLD_VELOCITY = 200;
+    public GestureDetector gestureDetector;
+	
+	 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+		  return inflater.inflate(R.layout.list, container, false);
+		  
+		  MotionEvent.
+		 }
+	
+}

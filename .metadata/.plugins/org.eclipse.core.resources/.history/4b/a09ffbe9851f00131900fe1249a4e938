@@ -1,0 +1,99 @@
+package com.example.android_assign1;
+
+//import com.example.android.fragments.R;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
+import android.support.v4.app.FragmentActivity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class MainActivity extends FragmentActivity {
+
+	Button list_view,grid_view,exlist_view;
+
+	
+	@Override
+	public void onCreate(final Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		list_view=(Button) findViewById(R.id.list);
+		grid_view=(Button) findViewById(R.id.grid);
+	    exlist_view =(Button) findViewById(R.id.exlist);
+		
+	   FragmentTransaction ft = getFragmentManager().beginTransaction();
+	    
+	    
+	    StartFragment myFragment = new StartFragment();
+	    ft.add(R.id.myfragment, myFragment);
+	    ft.commit();
+	    
+		list_view.setOnClickListener(btnOnClickListener);
+		list_view.setOnClickListener(btnOnClickListener);
+		list_view.setOnClickListener(btnOnClickListener);
+	}	
+		
+		 Button.OnClickListener btnOnClickListener = new Button.OnClickListener(){
+			  @Override
+			  public void onClick(View v) {
+			   Fragment newfragment;
+			   if(v==list_view){
+			    newfragment = new list();
+			   }
+			   //else if (v==grid_view) 
+			    //newfragment = new grid()			  }
+			   //else if (v==exlist_view) 
+			    //newfragment = new Fragment_3();
+			  // }
+			  // else {
+			    //newfragment = new StartFragment();
+			  // }
+			   
+			   FragmentTransaction transaction = getFragmentManager().beginTransaction();
+			   transaction.replace(R.id.myfragment, newfragment);
+			   transaction.addToBackStack(null);
+			   transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+			   transaction.commit();
+			  }
+
+				 
+				 
+				 
+				 
+				 
+				/*if (findViewById(R.id.fragment_container) != null) {
+
+		            // However, if we're being restored from a previous state,
+		            // then we don't need to do anything and should return or else
+		            // we could end up with overlapping fragments.
+		            if (savedInstanceState != null) {
+		                return;
+		            }
+		            
+		            list list1 = new list();
+		            // In case this activity was started with special instructions from an Intent,
+		            // pass the Intent's extras to the fragment as arguments
+		              list1.setArguments(getIntent().getExtras());
+		            
+		              // Add the fragment to the 'fragment_container' FrameLayout
+		              getFragmentManager().beginTransaction()
+		                      .add(R.id.fragment_container, list1).commit();
+				}*/
+				
+				
+		   
+		};
+		
+
+		 @Override
+		 public boolean onCreateOptionsMenu(Menu menu) {
+		  // Inflate the menu; this adds items to the action bar if it is present.
+		  getMenuInflater().inflate(R.menu.main, menu);
+		  return true;
+		 }
+
+		}

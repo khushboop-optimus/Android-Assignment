@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">calculator</string><string name="action_settings">Settings</string>
+    <integer-array name="1"></integer-array><integer-array name="2"></integer-array><string name="hello_world">Hello world!</string>
+    
+    
+    
+    
+    
+
+</resources>

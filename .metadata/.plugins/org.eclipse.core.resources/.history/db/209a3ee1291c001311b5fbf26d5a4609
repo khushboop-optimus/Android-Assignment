@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/7"
+                android:layout_alignLeft="@+id/3"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/7"
+                android:layout_alignBottom="@+id/7"
+                android:layout_alignLeft="@+id/6"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/7"
+                android:layout_alignBottom="@+id/7"
+                android:layout_toRightOf="@+id/7"
+                android:text="8" />
+
+            <EdittView
+                android:id="@+id/equation"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/5"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/6"
+                android:layout_alignBottom="@+id/6"
+                android:layout_toLeftOf="@+id/6"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/8"
+                android:layout_toLeftOf="@+id/8"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/6"
+                android:layout_alignLeft="@+id/equation"
+                android:layout_marginLeft="158dp"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/3"
+                android:layout_alignBottom="@+id/3"
+                android:layout_toLeftOf="@+id/6"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/5"
+                android:layout_toLeftOf="@+id/5"
+                android:text="1" />
+
+</RelativeLayout>

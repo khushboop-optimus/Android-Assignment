@@ -1,0 +1,13 @@
+package com.example.views;
+
+import java.util.ArrayList;
+
+import android.app.Fragment;
+
+
+public class Exlist extends Fragment {
+	public ArrayList<String> groups;
+	
+	
+
+}
